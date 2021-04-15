@@ -1,0 +1,103 @@
+*{
+  font-family: "Inter";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #00d1ff, #ed1eff);
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  min-height: 100vh;
+}
+
+
+.border-wrap {
+  max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 6.3rem;
+  line-height: 95%;
+  letter-spacing: 0.5%;
+}
+
+.what-are-we{
+  height: 100vh;
+}
+
+.what-are-we-desc{
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #ABABAB;
+}
+
+.airdrop-title{
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 6rem;
+}
+
+
+.navbar{
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+}
+
+.nav-link{
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar-brand{
+  color: white !important;
+  margin-right: 50px;
+}
+
+.welcome-to-aux{
+  color: #F5F5F7;
+  font-size: 1.09rem;
+  font-weight: 600;
+}
+
+.description{
+  max-width: 35em;
+  margin: auto;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  font-size: 1.4rem;
+}
+
+
+hr {
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  height: 15px;
+}
+
+.detail-para{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ABABAB;
+}
+
+.details-title{
+  font-weight: 800;
+  font-size: 4.2rem;
+}
+
+.team-images{
+  border: 3px solid black;
+}
