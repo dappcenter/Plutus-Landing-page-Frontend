@@ -35,7 +35,7 @@ function NavbarComp(props) {
 
             </Nav>
             <Nav className="ml-auto">
-              <Button target="_blank" className="mr-2" href="https://plutus-app-mvp.herokuapp.com/marketplace">Launch App</Button>
+              <Button target="_blank" className="mr-2" href="https://plutus-app-mvp.herokuapp.com/">Launch App</Button>
             </Nav>
           </Navbar.Collapse>
       </div>
