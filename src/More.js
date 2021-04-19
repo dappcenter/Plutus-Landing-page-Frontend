@@ -16,9 +16,9 @@ import Footer from './Footer'
 function More(props) {
   return (
     <>
-  <div className="container">
+    <div className="container">
 
-  </div>
+    </div>
 
     </>
   );

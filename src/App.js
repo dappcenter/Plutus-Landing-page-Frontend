@@ -12,8 +12,6 @@ function App() {
     <Router className="app">
       <Route path="/" exact render={(props) => (<Home {...props}/>)}/>
       <Route path="/whitepaper" exact render={(props) => (<Whitepaper {...props}/>)}/>
-      <Route path="/learnmore" exact render={(props) => (<More {...props}/>)}/>
-
     </Router>
     </>
   );
