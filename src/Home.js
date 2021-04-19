@@ -12,6 +12,7 @@ import Team from './Team'
 import Contact from './Contact'
 import Timeline from './Timeline'
 import Footer from './Footer'
+import EnjCompare from './EnjCompare'
 
 function Home(props) {
   return (
@@ -22,6 +23,9 @@ function Home(props) {
     <br></br>
     <br></br>
     <Details/>
+    <br></br>
+    <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
+    <EnjCompare/>
     <br></br>
     <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
     <Team/>

@@ -15,10 +15,10 @@ function Team(props) {
             <img className="founder-image team-images mb-3" style={{width: "100%"}} src="/images/majd.jpg"/>
             <h3>Majd Hailat</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Founder & Lead Developer</h5>
-          <IconButton href="https://www.linkedin.com/in/majd-hailat-033389197/" color="primary">
+          <IconButton target="_blank" href="https://www.linkedin.com/in/majd-hailat-033389197/" color="primary">
             <LinkedInIcon />
           </IconButton>
-          <IconButton href="https://github.com/majd64" color="primary">
+          <IconButton target="_blank" href="https://github.com/majd64" color="primary">
             <GitHubIcon />
           </IconButton>
           </div>
@@ -27,7 +27,7 @@ function Team(props) {
             <img className="founder-image team-images mb-3" style={{width: "100%"}} src="/images/max.jpeg"/>
             <h3>Maxim Sindall</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Co-Founder</h5>
-            <IconButton href="https://www.linkedin.com/in/maxim-s-245a86116/" color="primary">
+            <IconButton target="_blank" href="https://www.linkedin.com/in/maxim-s-245a86116/" color="primary">
               <LinkedInIcon />
             </IconButton>
           </div>
@@ -38,7 +38,7 @@ function Team(props) {
             <img className="team-images mb-3" style={{width: "100%"}} src="/images/maaheen.png"/>
             <h3>Maaheen Khan</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Marketing Director</h5>
-            <IconButton href="https://www.linkedin.com/in/maaheenkhan/" color="primary">
+            <IconButton target="_blank" href="https://www.linkedin.com/in/maaheenkhan/" color="primary">
               <LinkedInIcon />
             </IconButton>
           </div>
@@ -47,7 +47,7 @@ function Team(props) {
             <img className="team-images mb-3" style={{width: "100%"}} src="/images/expo.png"/>
             <h3>David Lopez</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Market Strategist</h5>
-              <IconButton href="https://www.linkedin.com/in/david-lopez-562a401b6/" color="primary">
+              <IconButton target="_blank" href="https://www.linkedin.com/in/david-lopez-562a401b6/" color="primary">
                 <LinkedInIcon />
               </IconButton>
           </div>

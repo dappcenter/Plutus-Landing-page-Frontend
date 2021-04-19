@@ -31,11 +31,11 @@ function NavbarComp(props) {
               <Nav.Link className="mr-3" href="/#contact">Contact</Nav.Link>
               <Nav.Link className="mr-3 whitepaper-link" href="/whitepaper">White Paper</Nav.Link>
               <Nav.Link target="_blank" className="mr-3" href="https://github.com/Plutus-Gaming-NFTs-Reimagined"><GitHubIcon/></Nav.Link>
-              <Nav.Link className="mr-3 whitepaper-link" href="https://t.me/joinchat/QFARK8z2hHJhNjNh"><TelegramIcon/></Nav.Link>
+              <Nav.Link target="_blank" className="mr-3 whitepaper-link" href="https://t.me/joinchat/QFARK8z2hHJhNjNh"><TelegramIcon/></Nav.Link>
 
             </Nav>
             <Nav className="ml-auto">
-              <Button target="_blank" className="mr-2" href="https://plutus-app-mvp.herokuapp.com/marketplace">Launch MVP</Button>
+              <Button target="_blank" className="mr-2" href="https://plutus-app-mvp.herokuapp.com/marketplace">Launch App</Button>
             </Nav>
           </Navbar.Collapse>
       </div>

@@ -35,11 +35,11 @@ var phantom = {
                   Copyright © Plutus 2021
                 </div>
                 <div className="col-4 my-auto">
-                  <IconButton style={{color: "white", fontSize: "1.3rem"}} href="https://t.me/joinchat/QFARK8z2hHJhNjNh" color="white">
+                  <IconButton style={{color: "white", fontSize: "1.3rem"}} target="_blank" href="https://t.me/joinchat/QFARK8z2hHJhNjNh" color="white">
                      <TelegramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "1.3rem"}} href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
+                  <IconButton style={{color: "white", fontSize: "1.3rem"}} target="_blank" href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
                      <GitHubIcon/>
                   </IconButton>
                   <br></br>
