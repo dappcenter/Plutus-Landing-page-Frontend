@@ -1,6 +1,9 @@
 import React, { useState, useEffect, Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles.css';
+import {IconButton} from '@material-ui/core';
+import TelegramIcon from '@material-ui/icons/Telegram';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Footer(props) {
   var style = {
@@ -27,12 +30,19 @@ var phantom = {
         <div style={phantom} />
           <div style={style}>
             <div style={{height: "100%"}} className="container">
-              <div style={{height: "100%"}} className="row">
-                <div className="col-6 my-auto">
+              <div style={{height: "100%"}} className="row ">
+                <div className="col-8 my-auto">
                   Copyright © Plutus 2021
                 </div>
-                <div className="col-6 my-auto">
-                
+                <div className="col-4 my-auto">
+                  <IconButton style={{color: "white", fontSize: "1.3rem"}} href="https://t.me/joinchat/QFARK8z2hHJhNjNh" color="white">
+                     <TelegramIcon/>
+                  </IconButton>
+
+                  <IconButton style={{color: "white", fontSize: "1.3rem"}} href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
+                     <GitHubIcon/>
+                  </IconButton>
+                  <br></br>
 
                 </div>
               </div>

@@ -88,14 +88,20 @@ hr {
 }
 
 .detail-para{
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: #ABABAB;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #505050;
+  line-height: 1.8rem;
 }
 
 .details-title{
-  font-weight: 800;
-  font-size: 4.2rem;
+  font-weight: 700;
+  font-size: 4rem;
+  background: linear-gradient(to right, #00d1ff, #ed1eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.1rem;
+
 }
 
 .team-images{
@@ -124,5 +130,9 @@ hr {
 
   .what-are-we{
     height: 70vh;
+  }
+
+  .whitepaper-link{
+    display: none;
   }
 }

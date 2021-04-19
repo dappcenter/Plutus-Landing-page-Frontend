@@ -1,20 +1,19 @@
 import './App.css';
-import Header from './Header';
-import NavbarComp from './Navbar';
 import React, { useState, useEffect, Component } from "react";
-import axios from "axios"
-import Querystring from "query-string"
 import {BrowserRouter as Router, Route, Redirect} from "react-router-dom";
+import Navbar from './Navbar'
 import Home from './Home';
-import Footer from './Footer'
-
+import Whitepaper from './Whitepaper'
+import More from './More'
 function App() {
-
   return (
     <>
-    <NavbarComp/>
+    <Navbar/>
     <Router className="app">
       <Route path="/" exact render={(props) => (<Home {...props}/>)}/>
+      <Route path="/whitepaper" exact render={(props) => (<Whitepaper {...props}/>)}/>
+      <Route path="/learnmore" exact render={(props) => (<More {...props}/>)}/>
+
     </Router>
     </>
   );

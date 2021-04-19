@@ -56,19 +56,19 @@ function Contact(props) {
       <div className="container" id="contact">
         <h1 className="airdrop-title">Reach out</h1>
           <form method="post">
-            <div class="form-group">
+            <div className="form-group">
               <label for="title-text-area">Name</label>
-              <input value={name} onChange={e => {setName(e.target.value)}} type="text" class="form-control" id="name-text-area" name="name" />
+              <input value={name} onChange={e => {setName(e.target.value)}} type="text" className="form-control" id="name-text-area" name="name" />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label for="title-text-area">Email</label>
-              <input value={email} onChange={e => {setEmail(e.target.value)}} type="email" class="form-control" id="email-text-area" name="email" />
+              <input value={email} onChange={e => {setEmail(e.target.value)}} type="email" className="form-control" id="email-text-area" name="email" />
             </div>
 
-            <div class="form-group">
+            <div className="form-group">
               <label for="body-text-area">Message</label>
-              <textarea value={message} onChange={e => {setMessage(e.target.value)}} class="form-control rounded-0" id="body-text-area" rows="5" name="message"></textarea>
+              <textarea value={message} onChange={e => {setMessage(e.target.value)}} className="form-control rounded-0" id="body-text-area" rows="5" name="message"></textarea>
             </div>
 
             <Button onClick={submitMessage} variant="contained" color="primary" >Submit</Button>

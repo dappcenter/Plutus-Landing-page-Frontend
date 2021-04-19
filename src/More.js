@@ -13,29 +13,15 @@ import Contact from './Contact'
 import Timeline from './Timeline'
 import Footer from './Footer'
 
-function Home(props) {
+function More(props) {
   return (
     <>
-    <Header/>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <Details/>
-    <br></br>
-    <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
-    <Team/>
-    <hr id="roadmap" style={{marginBottom: "150px", marginTop: "100px"}}/>
-    <Timeline />
-    <hr id="contact" style={{marginBottom: "150px", marginTop: "100px"}}/>
-    <Contact />
-    <br/>
-    <br/>
-    <br/>
-    <Footer />
+  <div className="container">
+
+  </div>
 
     </>
   );
 }
 
-export default Home;
+export default More;
