@@ -7,10 +7,13 @@ function Header(props) {
   return (
     <>
     <section class="header py-5 text-white">
+      <div className="header-spacing">
         <br/>
         <br/>
         <br/>
         <br/>
+      </div>
+
         <div class="container-fluid py-4">
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">

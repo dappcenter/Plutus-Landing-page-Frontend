@@ -22,7 +22,7 @@ function NavbarComp(props) {
             />
           </a>
 
-        <Navbar.Brand style={{fontSize: "", fontWeight: ""}} href="/">Plutus</Navbar.Brand>
+        <Navbar.Brand className="navbar-plutus-title" style={{fontSize: "", fontWeight: ""}} href="/">Plutus</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

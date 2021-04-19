@@ -23,9 +23,12 @@ function Home(props) {
     <br></br>
     <br></br>
     <Details/>
-    <br></br>
-    <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
-    <EnjCompare/>
+    <div className="enj-compare">
+      <br></br>
+      <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
+      <EnjCompare/>
+    </div>
+
     <br></br>
     <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
     <Team/>

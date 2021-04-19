@@ -132,7 +132,15 @@ hr {
     height: 70vh;
   }
 
-  .whitepaper-link{
+  .enj-compare{
+    display: none;
+  }
+
+  .navbar-plutus-title{
+    display: none;
+  }
+
+  .header-spacing{
     display: none;
   }
 }
@@ -188,4 +196,3 @@ hr {
  .compare .thead-default th {
 	 background-color: #fff;
 }
- 

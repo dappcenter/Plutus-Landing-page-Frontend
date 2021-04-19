@@ -6,8 +6,14 @@ import { Document } from 'react-pdf'
 function Whitepaper(props) {
   return (
     <>
+
+
     <div style={{width: "100%", height: "100vh"}}>
-      <embed src="/whitepaper.pdf" width="100%" height="100%" />
+      <object data="/whitepaper.pdf" type="application/pdf" width="100%" height="100%">
+        <p>Your web browser doesn't have a PDF plugin.
+        Instead you can <a href="/whitepaper.pdf">click here to
+        download the PDF file.</a></p>
+      </object>
     </div>
     </>
   );
