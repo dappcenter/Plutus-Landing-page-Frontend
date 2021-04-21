@@ -41,7 +41,7 @@ function Header(props) {
                      <InstagramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/Plutus_Official" color="white">
                      <TwitterIcon/>
                   </IconButton>
               </div>

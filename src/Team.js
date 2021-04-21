@@ -39,6 +39,10 @@ function Team(props) {
             <IconButton target="_blank" href="https://www.linkedin.com/in/maxim-s-245a86116/" color="primary">
               <LinkedInIcon />
             </IconButton>
+
+            <IconButton target="_blank" href="https://maximsindall.com/" color="primary">
+              <LanguageIcon />
+            </IconButton>
           </div>
 
           <div className="col-md-3 p-3 col-12">
