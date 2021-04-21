@@ -84,7 +84,7 @@ html {
 
 hr {
   background: linear-gradient(to right, #00d1ff, #ed1eff);
-  height: 15px;
+  height: 10px;
 }
 
 .detail-para{
@@ -143,6 +143,10 @@ hr {
   .header-spacing{
     display: none;
   }
+
+  .details{
+    text-align: left!important;
+  }
 }
 
 .compare table {
@@ -195,4 +199,15 @@ hr {
 }
  .compare .thead-default th {
 	 background-color: #fff;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pie{
+  height: 75%;
 }

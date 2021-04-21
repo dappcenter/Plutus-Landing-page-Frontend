@@ -55,6 +55,7 @@ function Contact(props) {
     <>
       <div className="container" id="contact">
         <h1 className="airdrop-title">Reach out</h1>
+          <br/>
           <form method="post">
             <div className="form-group">
               <label for="title-text-area">Name</label>

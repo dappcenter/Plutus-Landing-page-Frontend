@@ -28,10 +28,11 @@ function NavbarComp(props) {
             <Nav className="mr-auto">
               <Nav.Link className="mr-3" href="/#team">Team</Nav.Link>
               <Nav.Link className="mr-3" href="/#roadmap">Roadmap</Nav.Link>
+              <Nav.Link className="mr-3" href="/#token">Tokenomics</Nav.Link>
               <Nav.Link className="mr-3" href="/#contact">Contact</Nav.Link>
-              <Nav.Link className="mr-3 whitepaper-link" href="/whitepaper">White Paper</Nav.Link>
-              <Nav.Link target="_blank" className="mr-3" href="https://github.com/Plutus-Gaming-NFTs-Reimagined"><GitHubIcon/></Nav.Link>
-              <Nav.Link target="_blank" className="mr-3 whitepaper-link" href="https://t.me/joinchat/QFARK8z2hHJhNjNh"><TelegramIcon/></Nav.Link>
+              <Nav.Link className="mr-3 whitepaper-link" target="_blank" href="whitepaper.pdf">White Paper</Nav.Link>
+              <Nav.Link className="mr-3" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScnhw-EYb3Kfn6pNdVU-efPzouh7Sugy_70YD5Yosuyd1vY1g/viewform">Apply</Nav.Link>
+              
 
             </Nav>
             <Nav className="ml-auto">

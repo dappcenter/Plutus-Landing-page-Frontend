@@ -13,7 +13,7 @@ import Contact from './Contact'
 import Timeline from './Timeline'
 import Footer from './Footer'
 import EnjCompare from './EnjCompare'
-
+import Token from './Token'
 function Home(props) {
   return (
     <>
@@ -24,21 +24,20 @@ function Home(props) {
     <br></br>
     <Details/>
     <div className="enj-compare">
-      <br></br>
-      <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
+      <hr id=""  style={{marginBottom: "200px", marginTop: "200px"}}/>
       <EnjCompare/>
     </div>
-
-    <br></br>
-    <hr id="team"  style={{marginBottom: "150px", marginTop: "100px"}}/>
+    <hr id="team"  style={{marginBottom: "200px", marginTop: "200px"}}/>
     <Team/>
-    <hr id="roadmap" style={{marginBottom: "150px", marginTop: "100px"}}/>
+    <hr id="roadmap" style={{marginBottom: "200px", marginTop: "200px"}}/>
     <Timeline />
-    <hr id="contact" style={{marginBottom: "150px", marginTop: "100px"}}/>
+    <hr id="token" style={{marginBottom: "200px", marginTop: "200px"}}/>
+    <Token />
+    <hr id="contact" style={{marginBottom: "200px", marginTop: "200px"}}/>
     <Contact />
-    <br/>
-    <br/>
-    <br/>
+    <br></br>
+    <br></br>
+    <br></br>
     <Footer />
 
     </>
