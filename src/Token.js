@@ -23,9 +23,6 @@ function Token(props) {
               <li style={{marginBottom: "1rem"}} >Chain: <span style={{color: "black"}}>BSC</span></li>
               <li style={{marginBottom: "1rem"}} >Supply: <span style={{color: "black"}}>1,000,000,000</span></li>
               <li style={{marginBottom: "1rem"}} >Purpose: <span style={{color: "black"}}>Market transactions, governance</span></li>
-              <li style={{marginBottom: "1rem"}} >Deflationary: <span style={{color: "black"}}>TBD</span></li>
-              <li style={{marginBottom: "1rem"}} >BSC Scan: <span style={{color: "black"}}><a target="_blank" href="https://bscscan.com/token/0xfdb09fbeb34a5b00473382d47fd718da889b7feb">Click me</a></span></li>
-
             </ul>
           </div>
           <div className="col-xl-6 col-12">
