@@ -37,7 +37,7 @@ function Header(props) {
                      <GitHubIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.instagram.com/plutus.offical/" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.instagram.com/plutus.market/" color="white">
                      <InstagramIcon/>
                   </IconButton>
 
