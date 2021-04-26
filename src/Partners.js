@@ -22,11 +22,6 @@ function Partners(props) {
               </a>
             </div>
 
-            <div className="col col-12 col-md-4 align-self-center">
-              <a target="_blank" href="http://cryptoomg.com/">
-                <img style={{width: "100%"}} src="/images/omg.jpg"/>
-              </a>
-            </div>
           </row>
         </div>
       </div>
