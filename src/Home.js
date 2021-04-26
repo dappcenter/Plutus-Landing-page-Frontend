@@ -14,6 +14,8 @@ import Timeline from './Timeline'
 import Footer from './Footer'
 import EnjCompare from './EnjCompare'
 import Token from './Token'
+import Partners from './Partners'
+
 function Home(props) {
   return (
     <>
@@ -33,6 +35,8 @@ function Home(props) {
     <Timeline />
     <hr id="token" style={{marginBottom: "200px", marginTop: "200px"}}/>
     <Token />
+    <hr id="partners" style={{marginBottom: "200px", marginTop: "200px"}}/>
+    <Partners />
     <hr id="contact" style={{marginBottom: "200px", marginTop: "200px"}}/>
     <Contact />
     <br></br>

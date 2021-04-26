@@ -17,7 +17,7 @@ function Team(props) {
             <img className="founder-image team-images mb-3" style={{width: "100%"}} src="/images/majd.jpg"/>
             <h3>Majd Hailat</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Founder & Lead Developer</h5>
-            <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>Majd, an ambitious young entrepenure is the developer of <a target="_blank" href="https://www.portfolioview.ca/">Portfolio View
+            <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>Majd, an ambitious young entrepreneur, is the developer of <a target="_blank" href="https://www.portfolioview.ca/">Portfolio View
             </a> and the host of the <a target="_blank" href="https://www.youtube.com/channel/UCSI8zjZx3Y-dqCvShs43nyg">Eager Money</a> YouTube channel with 15,000 subscribers. He has been a developer and investor in the cryptocurrency space since 2019</span> </p>
           <IconButton target="_blank" href="https://www.linkedin.com/in/majd-hailat-033389197/" color="primary">
             <LinkedInIcon />
@@ -37,8 +37,8 @@ function Team(props) {
             <img className="founder-image team-images mb-3" style={{width: "100%"}} src="/images/maxim2.jpeg"/>
             <h3>Maxim Sindall</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Co-Founder & Head of Finance</h5>
-              <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>Maxim developed an educational program called 'Understanding Computing' where he helped students grow their knowledge in blockchain, and cryptocurrency.
-                He also manages over 3 million dollars in private investments for clients.
+              <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>Maxim developed an educational program called 'Understanding Computing' where he helped students grow their knowledge in blockchain and cryptocurrency.
+                He also manages private investments for clients.
               </span> </p>
           <IconButton target="_blank" href="https://www.linkedin.com/in/maxim-s-245a86116/" color="primary">
               <LinkedInIcon />
@@ -53,7 +53,7 @@ function Team(props) {
             <img className="team-images mb-3" style={{width: "100%"}} src="/images/maaheen.png"/>
             <h3>Maaheen Khan</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Director of Marketing</h5>
-              <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>Maaheen is the president of a marketing consulting company which has served over 200 clients in building their brand. She has over 4 years of administrative business experience and has been investing in cryptocurrency for over 2 years.
+              <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>Maaheen is the president of a marketing consulting company which has served over 200 clients in building their brand. She has over four years of administrative business experience and has been investing in cryptocurrency for over two years.
               </span> </p>
             <IconButton target="_blank" href="https://www.linkedin.com/in/maaheenkhan/" color="primary">
               <LinkedInIcon />
