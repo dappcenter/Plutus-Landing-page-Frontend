@@ -6,6 +6,8 @@ import Home from './Home';
 import More from './More'
 import Apply from './Apply'
 function App() {
+  if (window.location.origin != "https://www.plutusnft.com") window.location.assign("https://www.plutusnft.com");
+
   return (
     <>
     <Navbar/>
