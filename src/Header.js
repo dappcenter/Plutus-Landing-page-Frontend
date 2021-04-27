@@ -13,8 +13,6 @@ function Header(props) {
       <div className="header-spacing">
         <br/>
         <br/>
-        <br/>
-        <br/>
       </div>
 
         <div class="container-fluid py-4">
@@ -37,7 +35,7 @@ function Header(props) {
                      <GitHubIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.instagram.com/plutus.market/" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.instagram.com/plutus.nft/" color="white">
                      <InstagramIcon/>
                   </IconButton>
 
