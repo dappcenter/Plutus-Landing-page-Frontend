@@ -3,7 +3,7 @@ import './Styles.css';
 
 const EnjCompare = ({products}) =>
 <div className="container">
-  <h1 className="airdrop-title">Plutus vs. Enjin</h1>
+  <h1 className="airdrop-title">Altura vs. Enjin</h1>
 
   <div className="row compare">
     <div className="col-12 mt-5 text-center">
@@ -12,7 +12,7 @@ const EnjCompare = ({products}) =>
           <tr>
             <th />
             <th >
-              Plutus
+              Altura
             </th>
             <th >
               Enjin

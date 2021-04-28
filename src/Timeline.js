@@ -66,7 +66,7 @@ function Timeline(props) {
              <h4 className="vertical-timeline-element-subtitle">Adoption and expansion</h4>
              <ul>
                <li>Launch of our own simple game that utilizes our NFTs</li>
-               <li>Have indie game developers adopt Plutus in their video-games</li>
+               <li>Have indie game developers adopt Altura in their video-games</li>
                <li>Further product development and iteration </li>
              </ul>
            </VerticalTimelineElement>
@@ -78,7 +78,7 @@ function Timeline(props) {
              <h4 className="vertical-timeline-element-subtitle">Further adoption and expansion</h4>
              <ul>
                <li>Have major gaming companies utilize our SDKs and APIs</li>
-               <li>Have major gaming companies roll out NFTs on Plutus </li>
+               <li>Have major gaming companies roll out NFTs on Altura </li>
                <li>Further marketing and expansion</li>
              </ul>
            </VerticalTimelineElement>

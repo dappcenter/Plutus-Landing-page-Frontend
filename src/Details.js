@@ -52,7 +52,7 @@ We want to create truly random loot boxes on the blockchain that drop NFTs with 
         <div className="align-self-center col-md-7 col-12">
         <h1 className="details-title">Cross-Platform Items</h1>
           <h5 className="detail-para">
-Plutus wants gamers to be able to use the same in-game items between multiple video games.  </h5>
+Altura wants gamers to be able to use the same in-game items between multiple video games.  </h5>
         </div>
         <div className="col align-self-center col-md-5 col-12">
           <img  style={{width: "90%"}} src="/images/controller.png"/>

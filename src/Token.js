@@ -17,8 +17,8 @@ function Token(props) {
             <br></br>
             <br></br>
             <ul style={{fontSize: "1.8rem", fontWeight: "600", color: "rgb(171, 171, 171)"}}>
-              <li style={{marginBottom: "1rem"}} >Name: <span style={{color: "black"}}>Plutus</span></li>
-              <li style={{marginBottom: "1rem"}} >Symbol: <span style={{color: "black"}}>PLU</span></li>
+              <li style={{marginBottom: "1rem"}} >Name: <span style={{color: "black"}}>Altura</span></li>
+              <li style={{marginBottom: "1rem"}} >Symbol: <span style={{color: "black"}}>ALU</span></li>
               <li style={{marginBottom: "1rem"}} >Type: <span style={{color: "black"}}>BEP20</span></li>
               <li style={{marginBottom: "1rem"}} >Chain: <span style={{color: "black"}}>BSC</span></li>
               <li style={{marginBottom: "1rem"}} >Supply: <span style={{color: "black"}}>1,000,000,000</span></li>

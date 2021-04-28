@@ -18,10 +18,10 @@ function Header(props) {
         <div class="container-fluid py-4">
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-              <h6 class="mb-4 welcome-to-aux">WELCOME TO PLUTUS</h6>
+              <h6 class="mb-4 welcome-to-aux">WELCOME TO Altura</h6>
 
               <h1 class="title">Where Blockchain <br/> Meets Gaming</h1>
-              <p class="mt-5 lead mb-0 description"> Plutus is the next generation smart-gaming NFT platform </p>
+              <p class="mt-5 lead mb-0 description"> Altura is the next generation smart-gaming NFT platform </p>
 
               <br/>
               <br/>
@@ -31,15 +31,15 @@ function Header(props) {
                      <TelegramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Altura-Gaming-NFTs-Reimagined" color="white">
                      <GitHubIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.instagram.com/plutus.nft/" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.instagram.com/Altura.nft/" color="white">
                      <InstagramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/Plutus_Official" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/Altura_Official" color="white">
                      <TwitterIcon/>
                   </IconButton>
               </div>
