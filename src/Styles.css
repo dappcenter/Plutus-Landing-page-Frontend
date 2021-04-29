@@ -211,3 +211,7 @@ hr {
 .pie{
   height: 75%;
 }
+
+.btn-primary{
+  font-weight: 600;
+}

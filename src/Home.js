@@ -11,7 +11,6 @@ import { useParams } from "react-router";
 import Team from './Team'
 import Contact from './Contact'
 import Timeline from './Timeline'
-import Footer from './Footer'
 import EnjCompare from './EnjCompare'
 import Token from './Token'
 import Partners from './Partners'
@@ -42,8 +41,6 @@ function Home(props) {
     <br></br>
     <br></br>
     <br></br>
-    <Footer />
-
     </>
   );
 }

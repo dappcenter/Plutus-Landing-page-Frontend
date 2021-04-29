@@ -32,10 +32,18 @@ function Contact(props) {
   function submitMessage(){
     setMissing("")
     setStatusMessage("")
-    if (name === "") setMissing("Name required")
-    else if (email === "") setMissing("Email required")
-    else if (message === "") setMissing("Message required")
-    if (missing != "") return setOpen(true)
+    if (name === "") {
+      setMissing("Name required")
+      return setOpen(true)
+    }
+    else if (email === "") {
+      setMissing("Email required")
+      return setOpen(true)
+    }
+    else if (message === "") {
+      setMissing("Message required")
+      return setOpen(true)
+    }
 
     axios.post("/api/contact", Querystring.stringify({name: name, email: email, message: message}))
     .then(res => {

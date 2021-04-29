@@ -42,6 +42,12 @@ function Header(props) {
                   <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/altura_nft" color="white">
                      <TwitterIcon/>
                   </IconButton>
+
+                  <br/>
+                  <br/>
+                  <a target="_blank" href="/howtobuy" className="btn btn-primary mx-3 my-3">How To Buy $ALU</a>
+                  <a className="btn btn-danger btn-large mx-3 my-3 disabled" disabled>Buy $ALU (Coming very soon!)</a>
+
               </div>
 
 
