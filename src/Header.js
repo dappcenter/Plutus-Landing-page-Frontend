@@ -46,8 +46,8 @@ function Header(props) {
                   <br/>
                   <br/>
                   <a target="_blank" href="/howtobuy" className="btn btn-primary mx-3 my-3">How To Buy $ALU</a>
-                  <a className="btn btn-danger btn-large mx-3 my-3 disabled" disabled>Buy $ALU (Coming very soon!)</a>
-
+                  <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x8263CD1601FE73C066bf49cc09841f35348e3be0" className="btn btn-danger btn-large mx-3 my-3">Buy $ALU</a>
+                  <p>Contract address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0</p>
               </div>
 
 

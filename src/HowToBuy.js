@@ -40,7 +40,7 @@ function HowToBuy(props) {
       {title: "Connect your wallet, by clicking 'connect' in the top right", body: "", image: ""},
 
       {title: "Click 'Select a token'", body: "", image: "https://ml8ygptwlcsq.i.optimole.com/KqGSM2A.LwXc~1d1f4/w:378/h:443/q:auto/https://www.securities.io/wp-content/uploads/2021/03/PancakeSwap-DEX-Interface.png"},
-      {title: "Paste the $ALU contract address", body: "Contract address: coming soon", image: ""},
+      {title: "Paste the $ALU contract address", body: "Contract address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0", image: ""},
       {title: "Set the amount of $ALU you want to purchase and swap!", body: "", image: ""},
 
 
@@ -56,7 +56,7 @@ function HowToBuy(props) {
       <br/>
       <br/>
       <h1 className="airdrop-title">How To Buy ALU</h1>
-      <p>Token address: coming soon</p>
+      <p>Token address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0</p>
       <button disabled className="btn btn-primary">Buy from Pancake Swap</button>
 
       <div className="mt-5">
