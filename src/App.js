@@ -6,7 +6,7 @@ import Home from './Home';
 import More from './More'
 import Apply from './Apply'
 function App() {
-  if (window.location.origin != "https://www.plutusnft.com" && window.location.origin != "http://localhost:3000") window.location.assign("https://www.plutusnft.com");
+  if (window.location.origin != "https://www.alturanft.com" && window.location.origin != "http://localhost:3000") window.location.assign("https://www.alturanft.com");
 
   return (
     <>

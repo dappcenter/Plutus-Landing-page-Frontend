@@ -36,11 +36,11 @@ var phantom = {
                   Copyright © Altura 2021
                 </div>
                 <div className="col-lg-6 col-12 my-auto">
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://t.me/joinchat/QFARK8z2hHJhNjNh" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://t.me/alturanft" color="white">
                        <TelegramIcon/>
                     </IconButton>
 
-                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Altura-Gaming-NFTs-Reimagined" color="white">
+                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/organizations/Plutus-Gaming-NFTs-Reimagined/settings/profile" color="white">
                        <GitHubIcon/>
                     </IconButton>
 
@@ -48,7 +48,7 @@ var phantom = {
                        <InstagramIcon/>
                     </IconButton>
 
-                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/Altura_Official" color="white">
+                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/altura_nft" color="white">
                        <TwitterIcon/>
                     </IconButton>
 

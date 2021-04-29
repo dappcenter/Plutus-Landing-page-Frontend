@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+ import React, { useState, useEffect, Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles.css';
 import {IconButton} from '@material-ui/core';
@@ -18,20 +18,20 @@ function Header(props) {
         <div class="container-fluid py-4">
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-              <h6 class="mb-4 welcome-to-aux">WELCOME TO Altura</h6>
+              <h6 class="mb-4 welcome-to-aux">WELCOME TO ALTURA</h6>
 
               <h1 class="title">Where Blockchain <br/> Meets Gaming</h1>
-              <p class="mt-5 lead mb-0 description"> Altura is the next generation smart-gaming NFT platform </p>
+              <p class="mt-5 lead mb-0 description"> Altura is the next generation gaming NFT platform </p>
 
               <br/>
               <br/>
               <br/>
               <div>
-                <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://t.me/joinchat/QFARK8z2hHJhNjNh" color="white">
+                <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://t.me/alturanft" color="white">
                      <TelegramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Altura-Gaming-NFTs-Reimagined" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/organizations/Plutus-Gaming-NFTs-Reimagined/settings/profile" color="white">
                      <GitHubIcon/>
                   </IconButton>
 
@@ -39,7 +39,7 @@ function Header(props) {
                      <InstagramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/Altura_Official" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/altura_nft" color="white">
                      <TwitterIcon/>
                   </IconButton>
               </div>
