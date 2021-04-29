@@ -40,7 +40,7 @@ var phantom = {
                        <TelegramIcon/>
                     </IconButton>
 
-                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/organizations/Plutus-Gaming-NFTs-Reimagined/settings/profile" color="white">
+                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
                        <GitHubIcon/>
                     </IconButton>
 

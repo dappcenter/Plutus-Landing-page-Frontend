@@ -212,6 +212,6 @@ hr {
   height: 75%;
 }
 
-.btn-primary{
+.btn-primary, .btn-danger{
   font-weight: 600;
 }

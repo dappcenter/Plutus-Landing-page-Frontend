@@ -12,7 +12,6 @@ function Header(props) {
     <section class="header py-5 text-white">
       <div className="header-spacing">
         <br/>
-        <br/>
       </div>
 
         <div class="container-fluid py-4">
@@ -31,7 +30,7 @@ function Header(props) {
                      <TelegramIcon/>
                   </IconButton>
 
-                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/organizations/Plutus-Gaming-NFTs-Reimagined/settings/profile" color="white">
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
                      <GitHubIcon/>
                   </IconButton>
 
@@ -45,9 +44,11 @@ function Header(props) {
 
                   <br/>
                   <br/>
-                  <a target="_blank" href="/howtobuy" className="btn btn-primary mx-3 my-3">How To Buy $ALU</a>
+                  <a target="_blank" href="/howtobuy" className="btn btn-primary mx-3 my-3">How To Buy</a>
                   <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x8263CD1601FE73C066bf49cc09841f35348e3be0" className="btn btn-danger btn-large mx-3 my-3">Buy $ALU</a>
-                  <p>Contract address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0</p>
+                  <a target="_blank" href="https://poocoin.app/tokens/0x8263cd1601fe73c066bf49cc09841f35348e3be0" className="btn btn-primary btn-large mx-3 my-3">$ALU Chart</a>
+
+                <p>Contract address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0</p>
               </div>
 
 
