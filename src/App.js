@@ -7,6 +7,7 @@ import More from './More'
 import Apply from './Apply'
 import HowToBuy from './HowToBuy'
 import Footer from './Footer'
+import Meme from './Meme'
 
 function App() {
   if (window.location.origin != "https://www.alturanft.com" && window.location.origin != "http://localhost:3000") window.location.assign("https://www.alturanft.com");
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" exact render={(props) => (<Home {...props}/>)}/>
       <Route path="/apply" exact render={(props) => (<Apply {...props}/>)}/>
       <Route path="/howtobuy" exact render={(props) => (<HowToBuy {...props}/>)} />
+      <Route path="/meme" exact render={(props) => (<Meme {...props}/>)} />
     </Router>
     <Footer />
 

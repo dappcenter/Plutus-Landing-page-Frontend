@@ -6,6 +6,8 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import RedditIcon from '@material-ui/icons/Reddit';
+
 function Header(props) {
   return (
     <>
@@ -42,13 +44,15 @@ function Header(props) {
                      <TwitterIcon/>
                   </IconButton>
 
+                  <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.reddit.com/r/AlturaNFT/" color="white">
+                     <RedditIcon/>
+                  </IconButton>
+
                   <br/>
                   <br/>
                   <a target="_blank" href="/howtobuy" className="btn btn-primary mx-3 my-3">How To Buy</a>
                   <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x8263CD1601FE73C066bf49cc09841f35348e3be0" className="btn btn-danger btn-large mx-3 my-3">Buy $ALU</a>
                   <a target="_blank" href="https://poocoin.app/tokens/0x8263cd1601fe73c066bf49cc09841f35348e3be0" className="btn btn-primary btn-large mx-3 my-3">$ALU Chart</a>
-
-                <p>Contract address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0</p>
               </div>
 
 

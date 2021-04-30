@@ -6,6 +6,8 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import RedditIcon from '@material-ui/icons/Reddit';
+
 function Footer(props) {
   var style = {
     background: "linear-gradient(to right, #00d1ff, #ed1eff)",
@@ -50,6 +52,10 @@ var phantom = {
 
                     <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://twitter.com/altura_nft" color="white">
                        <TwitterIcon/>
+                    </IconButton>
+
+                    <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.reddit.com/r/AlturaNFT/" color="white">
+                       <RedditIcon/>
                     </IconButton>
 
                     <a style={{color: "white", fontSize: "1.3rem"}} target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScnhw-EYb3Kfn6pNdVU-efPzouh7Sugy_70YD5Yosuyd1vY1g/viewform">Apply</a>
