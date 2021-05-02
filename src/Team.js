@@ -65,7 +65,7 @@ function Team(props) {
             <h3>LongHong Wang</h3>
             <h5 style={{fontWeight: "400", color: "#ABABAB"}}>Blockchain Developer</h5>
               <p align={"left"}style={{fontSize: "0.9rem"}}><span style={{color: "#ABABAB"}}>
-                LongHong Wang is an experience senior blockchain and software engineer with over 7 years of professional experience. He is the Lead Developer at Chnoker.finance, a developer at Elixer-Swap and at Infraex development.
+                LongHong Wang is an experience senior blockchain developer and software engineer with over 7 years of experience. He is the Lead Developer at <a target="_blank" href="https://chonker.finance/">Chnoker.finance,</a> a developer at Elixer-Swap and at Infraex development.
               </span> </p>
             <IconButton target="_blank" href="https://www.linkedin.com/in/wanglonghong/" color="primary">
               <LinkedInIcon />
