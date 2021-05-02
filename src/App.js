@@ -9,21 +9,29 @@ import HowToBuy from './HowToBuy'
 import Footer from './Footer'
 import Meme from './Meme'
 import Banner from './Banner'
+import {Translator, Translate} from 'react-auto-translate';
+import ReactGA from 'react-ga';
+
 function App() {
   if (window.location.origin != "https://www.alturanft.com" && window.location.origin != "http://localhost:3000") window.location.assign("https://www.alturanft.com");
 
+  useEffect(() => {
+    const TRACKING_ID = "G-HJKV9ZZRVD";
+    ReactGA.initialize(TRACKING_ID)
+    ReactGA.pageview('/')
+  }, [])
+
   return (
     <>
-    <Banner/>
-    <Navbar/>
-    <Router className="app">
-      <Route path="/" exact render={(props) => (<Home {...props}/>)}/>
-      <Route path="/apply" exact render={(props) => (<Apply {...props}/>)}/>
-      <Route path="/howtobuy" exact render={(props) => (<HowToBuy {...props}/>)} />
-      <Route path="/meme" exact render={(props) => (<Meme {...props}/>)} />
-    </Router>
-    <Footer />
-
+      <Banner/>
+      <Navbar/>
+      <Router className="app">
+        <Route path="/" exact render={(props) => (<Home {...props}/>)}/>
+        <Route path="/apply" exact render={(props) => (<Apply {...props}/>)}/>
+        <Route path="/howtobuy" exact render={(props) => (<HowToBuy {...props}/>)} />
+        <Route path="/meme" exact render={(props) => (<Meme {...props}/>)} />
+      </Router>
+      <Footer />
     </>
   );
 }
