@@ -7,6 +7,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import RedditIcon from '@material-ui/icons/Reddit';
+import { SiDiscord } from 'react-icons/si';
 
 function Header(props) {
   return (
@@ -46,6 +47,10 @@ function Header(props) {
 
                   <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://www.reddit.com/r/AlturaNFT/" color="white">
                      <RedditIcon/>
+                  </IconButton>
+
+                  <IconButton style={{color: "white"}} target="_blank" href="https://discord.gg/cHW6SDMsEZ" color="white">
+                    <SiDiscord style={{padding: "0.15rem"}}/>
                   </IconButton>
 
                   <br/>

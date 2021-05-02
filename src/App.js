@@ -8,12 +8,13 @@ import Apply from './Apply'
 import HowToBuy from './HowToBuy'
 import Footer from './Footer'
 import Meme from './Meme'
-
+import Banner from './Banner'
 function App() {
   if (window.location.origin != "https://www.alturanft.com" && window.location.origin != "http://localhost:3000") window.location.assign("https://www.alturanft.com");
 
   return (
     <>
+    <Banner/>
     <Navbar/>
     <Router className="app">
       <Route path="/" exact render={(props) => (<Home {...props}/>)}/>
