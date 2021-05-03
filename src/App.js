@@ -13,10 +13,10 @@ import {Translator, Translate} from 'react-auto-translate';
 import ReactGA from 'react-ga';
 
 function App() {
-  if (window.location.origin != "https://www.alturanft.com" && window.location.origin != "http://localhost:3000") window.location.assign("https://www.alturanft.com");
+  if (window.location.origin != "https://www.alturanft.com" && window.location.origin != "http://localhost:3000" && window.location.origin != "http://localhost:5000") window.location.assign("https://www.alturanft.com");
 
   useEffect(() => {
-    const TRACKING_ID = "G-HJKV9ZZRVD";
+    const TRACKING_ID = "G-4LHDYZTWLC";
     ReactGA.initialize(TRACKING_ID)
     ReactGA.pageview('/')
   }, [])

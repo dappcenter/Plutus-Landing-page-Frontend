@@ -3,9 +3,36 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles.css';
 import { PieChart } from 'react-minimal-pie-chart';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-
+import axios from 'axios'
 
 function Token(props) {
+
+  const [totalSupply, setTotalSupply] = useState("")
+  const [circulatingSupply, setCirculatingSupply] = useState("")
+  const [price, setPrice] = useState("")
+
+  useEffect(() => {
+    fetchPrice()
+  }, [])
+
+  function fetchPrice(){
+    axios.get("https://api.coingecko.com/api/v3/simple/price?ids=altura&vs_currencies=usd")
+    .then(res => {
+      setPrice(res.data["altura"]["usd"])
+    })
+
+    axios.get("/circulatingcoins")
+    .then(res => {
+      console.log("FETCHED SHIT")
+      console.log(res.data)
+      setCirculatingSupply(res.data)
+    })
+
+    axios.get("/totalcoins")
+    .then(res => {
+      setTotalSupply(res.data)
+    })
+  }
   return (
     <>
       <div className="container">
@@ -21,8 +48,10 @@ function Token(props) {
               <li style={{marginBottom: "1rem"}} >Symbol: <span style={{color: "black"}}>ALU</span></li>
               <li style={{marginBottom: "1rem"}} >Type: <span style={{color: "black"}}>BEP20</span></li>
               <li style={{marginBottom: "1rem"}} >Chain: <span style={{color: "black"}}>BSC</span></li>
-              <li style={{marginBottom: "1rem"}} >Supply: <span style={{color: "black"}}>1,000,000,000</span></li>
-              <li style={{marginBottom: "1rem"}} >Purpose: <span style={{color: "black"}}>Market transactions, governance</span></li>
+              <li style={{marginBottom: "1rem"}} >Total supply: <span style={{color: "black"}}>{`${String(totalSupply).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Circulating supply: <span style={{color: "black"}}>{`${String(circulatingSupply).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Price: <span style={{color: "black"}}>{`$${price}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Market cap: <span style={{color: "black"}}>{`$${String((price * circulatingSupply)).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
             </ul>
           </div>
           <div className="col-xl-6 col-12">
