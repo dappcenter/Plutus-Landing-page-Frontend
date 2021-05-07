@@ -18,7 +18,7 @@ function Details(props) {
             Imagine a video game sword that gets duller every time it is used to slay a monster. Smart NFTs have properties that can change based on certain conditions.           </h5>
         </div>
         <div className="col align-self-center col-md-5 col-12">
-          <img style={{width: "90%"}} src="/images/sword.png"/>
+          <img style={{width: "100%"}} src="/images/art/Sword.png"/>
         </div>
       </div>
       </div>
@@ -36,7 +36,7 @@ We want to create truly random loot boxes on the blockchain that drop NFTs with 
         </div>
 
         <div className="col align-self-center col-md-5 col-12 order-md-1">
-          <img style={{width: "90%"}} src="/images/lootbox.png"/>
+          <img style={{width: "100%"}} src="/images/art/Lootbox.png"/>
         </div>
 
       </div>
@@ -55,7 +55,7 @@ We want to create truly random loot boxes on the blockchain that drop NFTs with 
 Altura wants gamers to be able to use the same in-game items between multiple video games.  </h5>
         </div>
         <div className="col align-self-center col-md-5 col-12">
-          <img  style={{width: "90%"}} src="/images/controller.png"/>
+          <img  style={{width: "100%"}} src="/images/art/controller_big.png"/>
         </div>
       </div>
       </div>

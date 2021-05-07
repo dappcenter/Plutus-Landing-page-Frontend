@@ -13,10 +13,10 @@ function NavbarComp(props) {
           <a href="/">
             <img
               href="/"
-              style={{border: "2px solid white", borderRadius: "50%"}}
+              style={{border: "1px solid white", borderRadius: "50%"}}
               src="/images/logo.png"
-              width="33"
-              height="33"
+              width="35"
+              height="35"
               className="d-inline-block align-top mr-2"
               alt="React Bootstrap logo"
             />
@@ -36,7 +36,7 @@ function NavbarComp(props) {
 
             </Nav>
             <Nav className="ml-auto">
-              <Button target="_blank" className="mr-2" href="https://plutus-app-mvp.herokuapp.com/">Launch App</Button>
+              <Button target="_blank" className="mr-2" href="https://www.alturanft.app/">Launch App</Button>
             </Nav>
           </Navbar.Collapse>
       </div>

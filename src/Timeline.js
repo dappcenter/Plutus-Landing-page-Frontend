@@ -55,7 +55,7 @@ function Timeline(props) {
                <li>Launch of full-fledged smart NFTs</li>
                <li>Introduce oracle-based loot boxes</li>
                <li>Further research and development</li>
-               <li>Strategies a marketing and adoption plan</li>
+               <li>Strategize a marketing and adoption plan</li>
              </ul>
            </VerticalTimelineElement>
 

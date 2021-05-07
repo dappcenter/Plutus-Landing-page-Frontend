@@ -10,29 +10,22 @@ function Token(props) {
   const [totalSupply, setTotalSupply] = useState("")
   const [circulatingSupply, setCirculatingSupply] = useState("")
   const [price, setPrice] = useState("")
+  const [mcap, setMcap] = useState("")
 
   useEffect(() => {
     fetchPrice()
   }, [])
 
   function fetchPrice(){
-    axios.get("https://api.coingecko.com/api/v3/simple/price?ids=altura&vs_currencies=usd")
+    axios.get("/api/info")
     .then(res => {
-      setPrice(res.data["altura"]["usd"])
-    })
-
-    axios.get("/circulatingcoins")
-    .then(res => {
-      console.log("FETCHED SHIT")
-      console.log(res.data)
-      setCirculatingSupply(res.data)
-    })
-
-    axios.get("/totalcoins")
-    .then(res => {
-      setTotalSupply(res.data)
+      setTotalSupply(res.data.totalCoins)
+      setCirculatingSupply(res.data.circulatingCoins)
+      setPrice(res.data.price)
+      setMcap(res.data.marketCap)
     })
   }
+
   return (
     <>
       <div className="container">
@@ -51,7 +44,7 @@ function Token(props) {
               <li style={{marginBottom: "1rem"}} >Total supply: <span style={{color: "black"}}>{`${String(totalSupply).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
               <li style={{marginBottom: "1rem"}} >Circulating supply: <span style={{color: "black"}}>{`${String(circulatingSupply).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
               <li style={{marginBottom: "1rem"}} >Price: <span style={{color: "black"}}>{`$${price}`}</span></li>
-              <li style={{marginBottom: "1rem"}} >Market cap: <span style={{color: "black"}}>{`$${String((price * circulatingSupply)).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Market cap: <span style={{color: "black"}}>{`$${String(mcap).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
             </ul>
           </div>
           <div className="col-xl-6 col-12">
