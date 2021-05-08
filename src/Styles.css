@@ -1,30 +1,14 @@
 *{
   font-family: "Inter";
-}
-
-html {
   scroll-behavior: smooth;
 }
 
 .header {
-  background: #eaafc8;
-  background: -webkit-linear-gradient(to right, #00d1ff, #ed1eff);
-  background: linear-gradient(to right, #00d1ff, #ed1eff);
   min-height: 100vh;
 }
 
-
-.border-wrap {
-  max-width: 250px;
-  padding: 1rem;
-  position: relative;
+.header, .navbar, .heading, .details-title{
   background: linear-gradient(to right, #00d1ff, #ed1eff);
-  padding: 4px;
-  border-radius: 6px;
-}
-
-.text-uppercase {
-  letter-spacing: 0.08em;
 }
 
 .title{
@@ -34,29 +18,6 @@ html {
   letter-spacing: 0.5%;
 }
 
-.what-are-we{
-  height: 100vh;
-}
-
-.what-are-we-desc{
-  font-weight: 400;
-  font-size: 1.3rem;
-  color: #ABABAB;
-}
-
-.airdrop-title{
-  background: linear-gradient(to right, #00d1ff, #ed1eff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  font-size: 6rem;
-}
-
-
-.navbar{
-  background: linear-gradient(to right, #00d1ff, #ed1eff);
-}
-
 .nav-link{
   color: white !important;
   font-weight: 600;
@@ -64,44 +25,38 @@ html {
 
 .navbar-brand{
   color: white !important;
-  margin-right: 50px;
+  margin-right: 3rem;
 }
 
 .welcome-to-aux{
-  color: #F5F5F7;
   font-size: 1.09rem;
   font-weight: 600;
 }
 
-.description{
-  max-width: 35em;
-  margin: auto;
+.heading{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 6rem;
+}
+
+.secondary-text{
   font-weight: 400;
   letter-spacing: 1.4px;
   font-size: 1.4rem;
 }
-
 
 hr {
   background: linear-gradient(to right, #00d1ff, #ed1eff);
   height: 10px;
 }
 
-.detail-para{
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: #505050;
-  line-height: 1.8rem;
-}
-
 .details-title{
   font-weight: 700;
   font-size: 4rem;
-  background: linear-gradient(to right, #00d1ff, #ed1eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1.1rem;
-
 }
 
 .team-images{
@@ -116,24 +71,12 @@ hr {
     letter-spacing: 0.5%;
   }
 
-  .airdrop-title{
+  .heading{
     font-size: 3rem;
   }
 
   .details-title{
     font-size: 2.5rem;
-  }
-
-  .what-are-we-desc{
-    font-size: 1rem;
-  }
-
-  .what-are-we{
-    height: 70vh;
-  }
-
-  .enj-compare{
-    /* display: none; */
   }
 
   .navbar-Altura-title{
@@ -219,5 +162,5 @@ hr {
 .banner-text{
  margin: 0px;
  vertical-align: middle;
- padding: 17px;
+ padding: 18px;
 }

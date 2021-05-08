@@ -55,7 +55,7 @@ function HowToBuy(props) {
       <br></br>
       <br/>
       <br/>
-      <h1 className="airdrop-title">How To Buy ALU</h1>
+      <h1 className="heading">How To Buy ALU</h1>
       <p>Token address: 0x8263CD1601FE73C066bf49cc09841f35348e3be0</p>
       <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x8263CD1601FE73C066bf49cc09841f35348e3be0" className="btn btn-primary">Buy from Pancake Swap</a>
 

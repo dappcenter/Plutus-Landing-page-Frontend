@@ -10,7 +10,7 @@ function Timeline(props) {
   return (
     <>
       <div className="">
-        <h1 className="pb-5 text-center airdrop-title">Roadmap</h1>
+        <h1 className="pb-5 text-center heading">Roadmap</h1>
          <VerticalTimeline>
            <VerticalTimelineElement
              className="vertical-timeline-element--work"

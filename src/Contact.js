@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles.css';
 import axios from 'axios'
@@ -13,19 +13,11 @@ function Contact(props) {
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [open, setOpen] = React.useState(false);
-  const [statusMessage, setStatusMessage] = useState("f3")
-
+  const [statusMessage, setStatusMessage] = useState("")
   const [missing, setMissing] = useState("")
 
-  const handleClick = () => {
-    setOpen(true);
-  };
-
   const handleClose = (event, reason) => {
-    if (reason === 'clickaway') {
-      return;
-    }
-
+    if (reason === 'clickaway') return;
     setOpen(false);
   };
 
@@ -62,7 +54,7 @@ function Contact(props) {
   return (
     <>
       <div className="container" id="contact">
-        <h1 className="airdrop-title">Reach out</h1>
+        <h1 className="heading">Reach out</h1>
           <br/>
           <form method="post">
             <div className="form-group">
@@ -92,7 +84,7 @@ function Contact(props) {
         open={open}
         autoHideDuration={6000}
         onClose={handleClose}
-        message={missing != "" ? missing : statusMessage}
+        message={missing !== "" ? missing : statusMessage}
         action={
           <React.Fragment>
             <IconButton size="small" aria-label="close" color="inherit" onClick={handleClose}>

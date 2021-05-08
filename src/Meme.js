@@ -14,7 +14,7 @@ function Meme(props) {
       <br/>
       <br/>
       <div className="container">
-        <h1 className="airdrop-title">Meme of the Week!</h1>
+        <h1 className="heading">Meme of the Week!</h1>
         <h3 >$100 prize every single week!</h3>
 
         <br/>

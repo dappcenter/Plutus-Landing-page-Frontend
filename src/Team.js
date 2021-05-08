@@ -10,7 +10,7 @@ function Team(props) {
   return (
     <>
       <div className="container">
-        <h1 className="airdrop-title">The Team</h1>
+        <h1 className="heading">The Team</h1>
         <br/>
         <div className="row text-center justify-content-around">
           <div className="col-md-3 p-3 col-12">

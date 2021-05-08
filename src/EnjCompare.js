@@ -3,8 +3,7 @@ import './Styles.css';
 
 const EnjCompare = ({products}) =>
 <div className="container">
-  <h1 className="airdrop-title">Altura vs. Enjin</h1>
-
+  <h1 className="heading">Altura vs. Enjin</h1>
   <div className="row compare">
     <div className="col-12 mt-5 text-center">
       <table className="table">

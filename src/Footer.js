@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles.css';
 import {IconButton} from '@material-ui/core';
@@ -21,12 +21,12 @@ function Footer(props) {
     fontSize: "1.3rem"
 }
 
-var phantom = {
-  display: 'block',
-  padding: '20px',
-  height: '60px',
-  width: '100%',
-}
+  var phantom = {
+    display: 'block',
+    padding: '20px',
+    height: '60px',
+    width: '100%',
+  }
 
   return (
     <>
@@ -66,8 +66,6 @@ var phantom = {
                   <IconButton style={{color: "white", fontSize: "2rem"}} target="_blank" href="https://github.com/Plutus-Gaming-NFTs-Reimagined" color="white">
                      <GitHubIcon/>
                   </IconButton>
-                  <br></br>
-
                 </div>
               </div>
             </div>

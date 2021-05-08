@@ -7,29 +7,10 @@ import axios from 'axios'
 
 function Token(props) {
 
-  const [totalSupply, setTotalSupply] = useState("")
-  const [circulatingSupply, setCirculatingSupply] = useState("")
-  const [price, setPrice] = useState("")
-  const [mcap, setMcap] = useState("")
-
-  useEffect(() => {
-    fetchPrice()
-  }, [])
-
-  function fetchPrice(){
-    axios.get("/api/info")
-    .then(res => {
-      setTotalSupply(res.data.totalCoins)
-      setCirculatingSupply(res.data.circulatingCoins)
-      setPrice(res.data.price)
-      setMcap(res.data.marketCap)
-    })
-  }
-
   return (
     <>
       <div className="container">
-        <h1 className="airdrop-title">Tokenomics</h1>
+        <h1 className="heading">Tokenomics</h1>
         <br></br>
         <br></br>
         <div className="row">
@@ -41,10 +22,11 @@ function Token(props) {
               <li style={{marginBottom: "1rem"}} >Symbol: <span style={{color: "black"}}>ALU</span></li>
               <li style={{marginBottom: "1rem"}} >Type: <span style={{color: "black"}}>BEP20</span></li>
               <li style={{marginBottom: "1rem"}} >Chain: <span style={{color: "black"}}>BSC</span></li>
-              <li style={{marginBottom: "1rem"}} >Total supply: <span style={{color: "black"}}>{`${String(totalSupply).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
-              <li style={{marginBottom: "1rem"}} >Circulating supply: <span style={{color: "black"}}>{`${String(circulatingSupply).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
-              <li style={{marginBottom: "1rem"}} >Price: <span style={{color: "black"}}>{`$${price}`}</span></li>
-              <li style={{marginBottom: "1rem"}} >Market cap: <span style={{color: "black"}}>{`$${String(mcap).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Total supply: <span style={{color: "black"}}>{`${props.totalSupply}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Circulating supply: <span style={{color: "black"}}>{`${props.circulatingSupply}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Price: <span style={{color: "black"}}>{`${props.price}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Market cap: <span style={{color: "black"}}>{`${props.mcap}`}</span></li>
+              <li style={{marginBottom: "1rem"}} >Holders: <span style={{color: "black"}}>{`${props.holders}`}</span></li>
             </ul>
           </div>
           <div className="col-xl-6 col-12">
@@ -99,17 +81,9 @@ function Token(props) {
               <p style={{display: "inline-block"}}>Liquidity (15%)</p>
             </div>
           </div>
-
           </div>
-
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
     </>
   );
 }
