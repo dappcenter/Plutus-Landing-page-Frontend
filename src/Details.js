@@ -12,7 +12,7 @@ function Details(props) {
             <p className="secondary-text">Imagine a video game sword that gets duller every time it is used to slay a monster. Smart NFTs have properties that can change based on certain conditions.</p>
           </div>
           <div className="col align-self-center col-md-5 col-12">
-            <img style={{width: "100%"}} src="/images/art/sword.gif"/>
+            <img style={{width: "100%"}} src="/images/art/Sword.gif"/>
           </div>
         </div>
 

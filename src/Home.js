@@ -16,24 +16,49 @@ import Partners from './Partners'
 import TokenInfo from './TokenInfo'
 
 function Home(props) {
+  const [totalSupply, setTotalSupply] = useState("--")
+  const [circulatingSupply, setCirculatingSupply] = useState("--")
+  const [price, setPrice] = useState("--")
+  const [mcap, setMcap] = useState("--")
+  const [holders, setHolders] = useState("--")
+  const [timerText, setTimerText] = useState(calcTime());
 
-  const [totalSupply, setTotalSupply] = useState("1000000000")
-  const [circulatingSupply, setCirculatingSupply] = useState("220000000")
-  const [price, setPrice] = useState("0.003523")
-  const [mcap, setMcap] = useState("7242562")
-  const [holders, setHolders] = useState("6954")
+  var priceFormatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 8
+  });
+
+  var marketCapFormatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  });
 
   useEffect(() => {
-    // fetchPrice()
-  }, [])
+    fetchPrice()
+    const timeoutID = window.setTimeout(() => {
+      setTimerText(calcTime());
+    }, 1000);
+
+    return () => window.clearTimeout(timeoutID );
+  })
+
+  function calcTime(){
+    const total = Date.parse('May 15 2021 GMT+4') - Date.parse(new Date());
+    const seconds = Math.floor( (total/1000) % 60 );
+    const minutes = Math.floor( (total/1000/60) % 60 );
+    const hours = Math.floor( (total/(1000*60*60)) % 24 );
+    const days = Math.floor( total/(1000*60*60*24) );
+    return days + ":" + hours + ":" + minutes + ":" + seconds
+  }
 
   function fetchPrice(){
     axios.get("/api/info")
     .then(res => {
       setTotalSupply(String(res.data.totalCoins).replace(/\B(?=(\d{3})+(?!\d))/g, ","))
       setCirculatingSupply(String(res.data.circulatingCoins).replace(/\B(?=(\d{3})+(?!\d))/g, ","))
-      setPrice(`$${String(res.data.price)}`)
-      setMcap(`$${String(res.data.marketCap).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`)
+      setPrice(priceFormatter.format(res.data.price))
+      setMcap(marketCapFormatter.format(res.data.marketCap))
       setHolders(`${String(res.data.holders).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`)
     })
   }
@@ -42,14 +67,10 @@ function Home(props) {
     <>
     <Header/>
     <div style={{marginBottom: "100px"}}></div>
-    <TokenInfo holders={holders} price={price} mcap={mcap}/>
-    <div style={{marginBottom: "100px"}}></div>
+    <TokenInfo timerText={timerText} holders={holders} price={price} mcap={mcap}/>
+    <div style={{marginBottom: "70px"}}></div>
 
     <Details/>
-    <div className="enj-compare">
-      <hr id=""  style={{marginBottom: "200px", marginTop: "200px"}}/>
-      <EnjCompare/>
-    </div>
     <hr id="team"  style={{marginBottom: "200px", marginTop: "200px"}}/>
     <Team/>
     <hr id="roadmap" style={{marginBottom: "200px", marginTop: "200px"}}/>
